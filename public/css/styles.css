@@ -123,3 +123,8 @@ img,svg,video,canvas{max-width:100%}
 .custom-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(10px,2vw,22px)}
 .custom-gallery img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block}
 @media(max-width:640px){.custom-gallery{grid-template-columns:1fr}.custom-gallery img{aspect-ratio:auto;max-height:none}}
+
+/* Desktop language switcher click-safety v15.1 */
+.header-actions{position:relative;z-index:12}
+.language-switcher{position:relative;z-index:13;pointer-events:auto}
+.language-switcher a{position:relative;z-index:14;display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:32px;pointer-events:auto}
